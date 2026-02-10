@@ -1,5 +1,4 @@
 import { useAuth } from "../auth/AuthProvider";
-import hannah from "../assets/hannah-montana.png";
 
 export default function Dashboard() {
   const { user, signOutUser } = useAuth();
